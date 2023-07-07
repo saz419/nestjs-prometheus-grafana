@@ -49,6 +49,8 @@ To use this project, follow the steps below:
 
 ### Prometheus Configuration
 
+
+
 The Prometheus server is pre-configured with a `prometheus.yml` file, which defines the targets to scrape for metrics. You can customize this file based on your specific needs.
 
 The default configuration assumes that the NestJS server is exposing metrics at `http://nestjs:3002/metrics`. If you change the NestJS server's port or endpoint for metrics, make sure to update the Prometheus configuration accordingly.
@@ -74,7 +76,15 @@ Grafana comes with a default admin user (username: `admin`, password: `admin`) t
 
 7. Click on "Save & Test" to verify the connection to Prometheus.
 
+#### Viewing Target Heartbeat in Prometheus
+<br />
+<img src="docs/prometheus-dashboard.png" />
+<br />
+
 ### Viewing Metrics in Grafana
+<br />
+<img src="docs/grafana-dashboard.png" />
+<br />
 
 Once the data source is configured, you can create dashboards and panels in Grafana to visualize the metrics collected by Prometheus. Grafana provides a rich set of options to create and customize visualizations.
 

@@ -17,7 +17,7 @@ COPY . .
 RUN npm run build
 
 # Expose the port that the server will listen on
-EXPOSE 3009
+EXPOSE 3002
 
 # Run the server
 CMD [ "npm", "start" ]

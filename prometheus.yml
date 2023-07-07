@@ -1,4 +1,4 @@
 scrape_configs:
   - job_name: 'nestjs-app'
     static_configs:
-      - targets: ['nestjs:3009'] # Replace with your server's address and port
+      - targets: ['nestjs:3002'] # Replace with your server's address and port
